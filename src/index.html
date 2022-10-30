@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGZone</title>
+
+  <!-- CSS links-->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+  <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+
+  <link rel="stylesheet" href="../css/home.css">
+</head>
+
+<body >
+
+  <header>
+    <div class="main-header">
+      <div class="container">
+        <div class="row">
+          <div class="row">
+            <div class="logo">
+              <img src="../Assets/logo.png" alt="">
+            </div>
+
+            <div class="search__container" id="searchBtn">            
+              <input class="search__input" id="newsQuery" type="text" placeholder="Search">
+            </div>
+          </div>
+
+          <div class="subscribebutton">
+            <button type="button" class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand text-warning" href="#">News34</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#genral" id="genral">Genral</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#business" id="business" >Business</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#sports" id="sport">Sports</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#tehnology" id="technology">Technology</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#entertainment" id="entertainment">Entertainment</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="text" id="newsQuery" placeholder="Search news">
+                      <button class="btn btn-outline-warning" type="button" id="searchBtn">Search</button>
+                  </form>
+              </div>
+          </div>
+      </nav>
+  </div>
+
+  </header>
+
+  <main>
+    <div class="col-xs-12">
+      <div class="container">
+        <div>
+          <div class="row m-3" id="newsType"></div>
+          <div class="row me-2 ms-2" id="newsdetails"></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="mx-3">
+        <div class="col footer-section">
+          <div class="row upper">
+
+            <!-- SOCIAL MEDIA SECTION-->
+            <div class=" col social-media-section">
+              <img src="./Assets/logol (2).png" alt="">
+
+              <p>Connect with us</p>
+              <ul class="row social-icons">
+                <li><a href="">
+                    <iconify-icon icon="dashicons:linkedin"></iconify-icon>
+                  </a></li>
+                <li><a href="">
+                    <iconify-icon icon="bxl:instagram"></iconify-icon>
+                  </a></li>
+                <li><a href="">
+                    <iconify-icon icon="ei:sc-facebook"></iconify-icon>
+                  </a></li>
+                <li><a href="">
+                    <iconify-icon icon="ant-design:twitter-outlined"></iconify-icon>
+                  </a></li>
+              </ul>
+
+            </div>
+
+            <!--HOT TOPICS-->
+            <div class="col hot-picK-section">
+              <h5>HOT PICKS</h5>
+              <ul>
+                <li><a href="">Markets</a></li>
+                <li><a href="">Weather</a></li>
+                <li><a href="">Machinery</a></li>
+                <li><a href="">Crops</a></li>
+                <li><a href="">Agro Technology</a></li>
+                <li><a href="">Livestock</a></li>
+                <li><a href="">Global Market</a></li>
+              </ul>
+            </div>
+
+            <!--TOPICS-->
+            <div class="col topic-section">
+              <h5>TOPICS</h5>
+              <ul>
+                <li><a href="">Tractors </a></li>
+                <li><a href="">Combines </a></li>
+                <li><a href="">Harvesters </a></li>
+                <li><a href="">Planting </a></li>
+                <li><a href="">Hay Equipment </a></li>
+                <li><a href="">Trucks & Trailers </a></li>
+                <li><a href="">Livestock </a></li>
+                <li><a href="">Seed, Feed & Hay </a></li>
+              </ul>
+            </div>
+
+
+            <!--REACH OUT-->
+            <div class="reach-out-section">
+              <h5>Reach Out</h5>
+              <ul>
+                <li><a href="mailto:newomenintech@gmail.com">newomenintech@gmail.com</a></li>
+                <li><a href="tel:+234916200312">+234916200312</a></li>
+                <li><a href="http://">No.P12 Fire Service Complex, Jimeta Yola, Adamawa State.</a></li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <hr>
+
+          <div class="row container">
+            <div class="col ">
+              <div class="row footer-address">
+                <p class="copyright">© Copyright 2022 </p>
+                <span class="mx-2"> AgZone , </span>
+                <p> 707 S 13th Street Tekamah, NE 68061</p>
+                <p class="mx-2"><a href="">| Terms of Use </a></p>
+                <p>|</p>
+                <p class="mx-2"><a href="">Privacy Plicy |</a></p>
+              </div>
+              <p class="cookie"><a href="">Cookie Preferences</a></p>
+            </div>
+            <div class="row sponsor">
+              <p><span>Powered by </span>SMEGEAR MEDIA AGENCY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- JS links-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+  <script src="../js/custom.js"></script>
+</body>
+
+</html>

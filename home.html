@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGZone</title>
+
+  <!-- CSS links-->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+  <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+
+  <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="main-header">
+      <div class="container">
+        <div class="row">
+          <div class="row">
+            <div class="logo">
+              <img src="./Assets/logo.png" alt="">
+            </div>
+
+            <div class="search__container" id="searchBtn">
+              <input class="search__input" id="newsQuery" type="text" placeholder="Search">
+            </div>
+          </div>
+
+          <div class="subscribebutton">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Subscribe</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header"> <button type="button" class="close" data-dismiss="modal"
+                      aria-label="Close"> <span aria-hidden="true">&times;</span> </button> </div>
+                  <div class="modal-body p-0 row">
+                    <div class="col-12 col-lg-5 ad p-0"> <img src="./Assets/subscribe.png" width="100%"
+                        height="100%" /> </div>
+                    <div class="details col-12 col-lg-7">
+                      <h2>STAY TUNED</h2>
+                      <p><small class="para">Subscribe to our newsletter and never miss our<br> designs ,latest
+                          news.etc.</small></p>
+                      <p><small class="para">Our newsletter is sent once a week, every<br>Monday</small></p>
+                      <div class="form-group mt-3 pt-3 mb-5"><input type="email" class="form-control"
+                          placeholder="email@example.com">
+                      </div>
+                      <small class="text-muted"><a href="#">Personal Data Charter</a></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+         
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="tabs">
+        <div class="nav nav-tabs nav-fill" id="navbarSupportedContent" role="tablist">
+
+
+          <a class="nav-item nav-link active" id="home" data-toggle="tab" aria-current="page" href="#home"
+            aria-selected="true">HOME</a>
+
+          <a class="nav-item nav-link" id="markets" data-toggle="tab" aria-current="page" href="#markets"
+            aria-selected="false">MARKETS</a>
+
+          <a class="nav-item nav-link" id="weather" data-toggle="tab" aria-current="page" href="#weather"
+            aria-selected="false">WEATHER</a>
+
+          <a class="nav-item nav-link" id="machinery" data-toggle="tab" aria-current="page" href="#machinery"
+            aria-selected="false">MACHINERY</a>
+
+          <a class="nav-item nav-link" id="crop" data-toggle="tab" aria-current="page" href="#crop"
+            aria-selected="false">CROPS</a>
+
+          <a class="nav-item nav-link" id="agro" data-toggle="tab" aria-current="page" href="#agro"
+            aria-selected="false">AGRO TECHNOLOGY</a>
+
+          <a class="nav-item nav-link" id="livestock" data-toggle="tab" aria-current="page" href="#livestock"
+            aria-selected="false">LIVESTOCK</a>
+
+          <a class="nav-item nav-link" id="global" data-toggle="tab" aria-current="page" href="#global"
+            aria-selected="false">GLOBAL MARKET</a>
+        </div>
+      </nav>
+    </div>
+
+
+  </header>
+
+  <main>
+    <div class="col-xs-12">
+      <div class="container">
+        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+            <!-- NEWS SECTION-->
+            <div class="news-panel">
+              <div class="container">
+                <div class="row news-panes">
+
+                  <div class="news-pane-left">
+                    <div class="col news-section">
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/bbc_news.png" alt="">
+                          <a href="" id="news-link">
+                            <p class="news-body">
+
+                            </p>
+                          </a>
+                          <p id="newsHeading">
+                            GLOBAL MARKET
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/img.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/bbc_news.png" alt="">
+                          <p>
+                            Why Nigeria gets too little from $2.7 billion ginger market despite being world’s second
+                            largest producer
+                          </p>
+                          <p>
+                            GLOBAL MARKET
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/img.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/bbc_news.png" alt="">
+                          <p>
+                            Why Nigeria gets too little from $2.7 billion ginger market despite being world’s second
+                            largest producer
+                          </p>
+                          <p>
+                            GLOBAL MARKET
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/img.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/bbc_news.png" alt="">
+                          <p>
+                            Why Nigeria gets too little from $2.7 billion ginger market despite being world’s second
+                            largest producer
+                          </p>
+                          <p>
+                            GLOBAL MARKET
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/img.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/bbc_news.png" alt="">
+                          <p>
+                            Why Nigeria gets too little from $2.7 billion ginger market despite being world’s second
+                            largest producer
+                          </p>
+                          <p>
+                            GLOBAL MARKET
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/img.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/bbc_news.png" alt="">
+                          <p>
+                            Why Nigeria gets too little from $2.7 billion ginger market despite being world’s second
+                            largest producer
+                          </p>
+                          <p>
+                            GLOBAL MARKET
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/img.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/bbc_news.png" alt="">
+                          <p>
+                            Why Nigeria gets too little from $2.7 billion ginger market despite being world’s second
+                            largest producer
+                          </p>
+                          <p>
+                            GLOBAL MARKET
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/img.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                    </div>
+                  </div>
+
+                  <div class="news-pane-right">
+                    <div class="col news-section">
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/times_news.png" alt="">
+                          <p>
+                            Guyuk produces over 200,000 bags of soya beans despite the inconsistent rainfall this year
+                          </p>
+                          <p>
+                            CROP
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/soybeans.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/times_news.png" alt="">
+                          <p>
+                            Guyuk produces over 200,000 bags of soya beans despite the inconsistent rainfall this year
+                          </p>
+                          <p>
+                            CROP
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/soybeans.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/times_news.png" alt="">
+                          <p>
+                            Guyuk produces over 200,000 bags of soya beans despite the inconsistent rainfall this year
+                          </p>
+                          <p>
+                            CROP
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/soybeans.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/times_news.png" alt="">
+                          <p>
+                            Guyuk produces over 200,000 bags of soya beans despite the inconsistent rainfall this year
+                          </p>
+                          <p>
+                            CROP
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/soybeans.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/times_news.png" alt="">
+                          <p>
+                            Guyuk produces over 200,000 bags of soya beans despite the inconsistent rainfall this year
+                          </p>
+                          <p>
+                            CROP
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/soybeans.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/times_news.png" alt="">
+                          <p>
+                            Guyuk produces over 200,000 bags of soya beans despite the inconsistent rainfall this year
+                          </p>
+                          <p>
+                            CROP
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/soybeans.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row news-info">
+                        <div class="col news-info-text">
+                          <img src="./Assets/times_news.png" alt="">
+                          <p>
+                            Guyuk produces over 200,000 bags of soya beans despite the inconsistent rainfall this year
+                          </p>
+                          <p>
+                            CROP
+                          </p>
+                        </div>
+                        <div class="news-info-image">
+                          <img src="./Assets/img.png" alt="">
+                        </div>
+                      </div>
+                      <hr>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="mx-3">
+        <div class="col footer-section">
+          <div class="row upper">
+
+            <!-- SOCIAL MEDIA SECTION-->
+            <div class=" col social-media-section">
+              <img src="./Assets/logol (2).png" alt="">
+
+              <p>Connect with us</p>
+              <ul class="row social-icons">
+                <li><a href="">
+                    <iconify-icon icon="dashicons:linkedin"></iconify-icon>
+                  </a></li>
+                <li><a href="">
+                    <iconify-icon icon="bxl:instagram"></iconify-icon>
+                  </a></li>
+                <li><a href="">
+                    <iconify-icon icon="ei:sc-facebook"></iconify-icon>
+                  </a></li>
+                <li><a href="">
+                    <iconify-icon icon="ant-design:twitter-outlined"></iconify-icon>
+                  </a></li>
+              </ul>
+
+            </div>
+
+            <!--HOT TOPICS-->
+            <div class="col hot-picK-section">
+              <h5>HOT PICKS</h5>
+              <ul>
+                <li><a href="">Markets</a></li>
+                <li><a href="">Weather</a></li>
+                <li><a href="">Machinery</a></li>
+                <li><a href="">Crops</a></li>
+                <li><a href="">Agro Technology</a></li>
+                <li><a href="">Livestock</a></li>
+                <li><a href="">Global Market</a></li>
+              </ul>
+            </div>
+
+            <!--TOPICS-->
+            <div class="col topic-section">
+              <h5>TOPICS</h5>
+              <ul>
+                <li><a href="">Tractors </a></li>
+                <li><a href="">Combines </a></li>
+                <li><a href="">Harvesters </a></li>
+                <li><a href="">Planting </a></li>
+                <li><a href="">Hay Equipment </a></li>
+                <li><a href="">Trucks & Trailers </a></li>
+                <li><a href="">Livestock </a></li>
+                <li><a href="">Seed, Feed & Hay </a></li>
+              </ul>
+            </div>
+
+
+            <!--REACH OUT-->
+            <div class="reach-out-section">
+              <h5>Reach Out</h5>
+              <ul>
+                <li><a href="mailto:newomenintech@gmail.com">newomenintech@gmail.com</a></li>
+                <li><a href="tel:+234916200312">+234916200312</a></li>
+                <li><a href="http://">No.P12 Fire Service Complex, Jimeta Yola, Adamawa State.</a></li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <hr>
+
+          <div class="row container">
+            <div class="col ">
+              <div class="row footer-address">
+                <p class="copyright">© Copyright 2022 </p>
+                <span class="mx-2"> AgZone , </span>
+                <p> 707 S 13th Street Tekamah, NE 68061</p>
+                <p class="mx-2"><a href="">| Terms of Use </a></p>
+                <p>|</p>
+                <p class="mx-2"><a href="">Privacy Plicy |</a></p>
+              </div>
+              <p class="cookie"><a href="">Cookie Preferences</a></p>
+            </div>
+            <div class="row sponsor">
+              <p><span>Powered by </span>SMEGEAR MEDIA AGENCY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- JS links-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+  <script src="./js/custom.js"></script>
+</body>
+
+</html>
